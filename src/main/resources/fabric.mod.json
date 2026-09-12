@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "anticheat-qa",
+  "version": "${version}",
+  "name": "AntiCheat QA",
+  "description": "Client-side Anti-Cheat QA / Developer Client. Observes, visualizes, logs and simulates. No cheats, no bypasses.",
+  "authors": ["AntiCheatQA"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.anticheatqa.AntiCheatQA"
+    ]
+  },
+  "mixins": [
+    "anticheat-qa.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
