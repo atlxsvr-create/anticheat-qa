@@ -1,14 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "fortyone-client",
+  "id": "clientcraft",
   "version": "${version}",
-  "name": "41 Client",
-  "description": "41 Client for Minecraft 1.21.11",
-  "authors": [
-    "41 Client"
-  ],
+  "name": "ClientCraft",
+  "description": "ClientCraft — Fabric client for Minecraft 1.21.11",
+  "authors": ["ClientCraft"],
   "license": "MIT",
-  "icon": "assets/fortyone-client/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
