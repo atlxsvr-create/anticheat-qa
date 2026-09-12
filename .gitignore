@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+*.jar
+!**/src/**/*.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*~
+.project
+.classpath
+.settings/
+bin/
+out/
+
+# Minecraft / Fabric
+run/
+logs/
+*.log
+config/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.class
+*.tmp
+*.bak
