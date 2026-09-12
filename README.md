@@ -2,20 +2,39 @@
 
 **Fabric 1.21.11 client mod — version 2.9.59**
 
-Package: `dev.anticheatqa`  
-Mod ID: `fortyone-client`
+| | |
+|---|---|
+| **Mod ID** | `fortyone-client` |
+| **Package** | `dev.anticheatqa` |
+| **Minecraft** | 1.21.11 |
+| **Java** | 21 |
 
-Decompiled from the release JAR (`41-client-2.9.59.jar`). Sources were recovered with CFR and may need cleanup before a clean rebuild.
+## Repository status
 
-## Build
+This repo was built from the **compiled** release JAR (`41-client-2.9.59.jar`).
+
+- Gradle project, `fabric.mod.json`, mixins, CI workflow, and core entry class are on `main`.
+- **162 Java files** were decompiled with CFR from the JAR (local workspace).
+- Decompiled code uses **intermediary mappings** (`class_310`, etc.). That is expected from a release JAR and will **not** compile cleanly against Yarn without remapping.
+
+**If you have the real source tree** (not a JAR), clone this repo and force-push your sources:
+
+```bash
+git clone https://github.com/atlxsvr-create/anticheat-qa.git
+cd anticheat-qa
+# replace contents with your real sources, then:
+git add -A
+git commit -m "Add real source tree"
+git push
+```
+
+## Build (after Yarn-mapped sources)
 
 ```bash
 gradle build
-# or
-./gradlew build
 ```
 
-Requires Java 21, Fabric Loader, Fabric API, Minecraft 1.21.11.
+Requires Java 21, Fabric Loader, Fabric API.
 
 ## License
 
