@@ -4,4 +4,4 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-rootProject.name = "anticheat-qa"
+rootProject.name = "fortyone-client"

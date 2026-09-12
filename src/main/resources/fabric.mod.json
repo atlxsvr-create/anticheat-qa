@@ -1,11 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "anticheat-qa",
+  "id": "fortyone-client",
   "version": "${version}",
-  "name": "AntiCheat QA",
-  "description": "Client-side Anti-Cheat QA / Developer Client. Observes, visualizes, logs and simulates. No cheats, no bypasses.",
-  "authors": ["AntiCheatQA"],
+  "name": "41 Client",
+  "description": "41 Client for Minecraft 1.21.11",
+  "authors": [
+    "41 Client"
+  ],
   "license": "MIT",
+  "icon": "assets/fortyone-client/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
